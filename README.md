@@ -1,3 +1,7 @@
+待字闺中算法交流群：347731858（已满）
+
+使用Gitter进行交流：
+
 [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/daiziguizhong/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 
