@@ -17,17 +17,17 @@ def solve(s, k, strict=False):
     after = s[k] if k < len(s) else None
 
     for i in xrange(k, len(s) + 1):
-        if strict:
-            if 'M' in [pre, after]:
-                continue
-        res = min(res, l)
+        if strict and 'M' not in [pre, after]:
+            res = min(res, l)
+        if not strict:
+            res = min(res, l)
 
         l -= s[i - k] == 'L'
         m -= s[i - k] == 'M'
         l += s[i] == 'L' if i < len(s) else 0
         m += s[i] == 'M' if i < len(s) else 0
 
-        pre, after = s[i - k], s[i] if i < len(s) else -1
+        pre, after = s[i - k], (s[i] if i < len(s) else -1)
     return -1 if res == INF else res
 
 assert solve("MLLM", 3, False) == 2
@@ -38,10 +38,9 @@ assert solve("MLLM", 4, True) == 2
 assert solve("MLLM", 3, True) == -1
 
 assert solve("MLMMLLM", 3, False) == 1
-assert solve("MLMMLLM", 3, True) == -1
-
+assert solve("MLMMLLM", 3, True) == 1
 assert solve("MLLMLLM", 3, False) == 2
-assert solve("MLLMLLM", 3, True) == -1
+assert solve("MLLMLLM", 3, True) == 2
 assert solve("MMM", 3) == 0
 assert solve("MMM", 3, True) == 0
 assert solve("LLL", 2, True) == 2
