@@ -1,8 +1,3 @@
-//
-//  draw_water.hpp
-//  algorithm
-
-#pragma once
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -41,3 +36,16 @@ public:
         assert(0 == drawWater(time));
     }
 };
+
+int main() {
+    int n;
+    vector<unsigned int> ns;
+    
+    cin >> n;
+    ns.resize(n);
+    for (int i = 0; i < n; i++) {
+        cin >> ns[i];
+    }
+    cout << DrawWater().drawWater(ns) << endl;
+    return 0;
+}
