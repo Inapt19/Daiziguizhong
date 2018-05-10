@@ -18,7 +18,7 @@ public:
      */
     unsigned int drawWater(vector<unsigned int> &time){
         sort(time.begin(), time.end());
-        size_t n = time.size() - 1; // 如果个人等待时间也算的就不减 1
+        size_t n = time.size();
         unsigned int result = 0;
         for (unsigned int it : time) {
             result += it * n--;
@@ -29,12 +29,12 @@ public:
     
     void runTest(){
         vector<unsigned int> time = {1};
-        assert(0 == drawWater(time));
-        
-        time = {2, 1};
         assert(1 == drawWater(time));
         
-        time = {3, 1, 2, 3};
+        time = {1,2};
+        assert(4 == drawWater(time));
+        
+        time = {1, 2, 3};
         assert(10 == drawWater(time));
         
         time = {0};
