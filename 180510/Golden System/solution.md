@@ -1,8 +1,11 @@
 
-$$ q = \dfrac{(\sqrt5 + 1)}{2} $$
 昨天看到这题，有大佬 @冒. 。o 〇泡 马上想到了
-$$ q^{2} = q + 1 $$
-$$ q^{n+1} + q^{n} => q^{n}(q + 1) => q^{n}(q^{2}) => q^{n+2} $$
+
+![](http://chart.googleapis.com/chart?cht=tx&chl=\Large%20q+%3D+%5Cfrac%7B%28%5Csqrt5+%2B+1%29%7D%7B2%7D)
+
+![](http://chart.googleapis.com/chart?cht=tx&chl=\Large%20q%5E%7B2%7D+%3D+q+%2B+1)
+
+![](http://chart.googleapis.com/chart?cht=tx&chl=\Large%20q%5E%7Bn%2B1%7D+%2B+q%5E%7Bn%7D+%3D%3E+q%5E%7Bn%7D%28q+%2B+1%29+%3D%3E+q%5E%7Bn%7D%28q%5E%7B2%7D%29+%3D%3E+q%5E%7Bn%2B2%7D)
 
 因此有
 > xxx011xxx === xxx100xxx
