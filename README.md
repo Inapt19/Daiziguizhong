@@ -2,7 +2,7 @@
 
 使用Gitter进行交流： [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/daiziguizhong/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-大家可以通过Issues和Pull requests提交自己的题目、想法与解法。
+大家可以通过Issues和Pull requests提交自己的题目、想法与解法。出题人和写解法的人，可以挂出自己的二维码获得读者的打赏。
 
 一些Tips：
 
