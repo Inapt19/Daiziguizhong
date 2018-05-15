@@ -33,4 +33,10 @@ http://codeforces.com/contest/965/problem/E
 
 ## 请我喝一杯可乐
 
-![](http://wizmann-pic.qiniudn.com/18-5-14/73128583.jpg)
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/bonus_QR.jpg)
+
+## 待字闺中微信群
+
+内部测试期间，先加以下微信为好友，之后会把你拉入群中
+
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_QR.jpg)
