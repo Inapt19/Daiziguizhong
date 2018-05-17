@@ -50,6 +50,7 @@ http://codeforces.com/contest/980/problem/C
 ## 请我喝一杯可乐
 
 ![](https://raw.githubusercontent.com/Inapt19/Resource/master/bonus_QR.jpg)
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_bonus_qr.jpg)
 
 ## 待字闺中微信群
 
