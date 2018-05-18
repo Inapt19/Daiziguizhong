@@ -45,7 +45,7 @@
 
 ## 原题链接
 
-http://codeforces.com/contest/977/problem/D
+http://codeforces.com/contest/980/problem/C
 
 ## 请我喝一杯可乐
 
