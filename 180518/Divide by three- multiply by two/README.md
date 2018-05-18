@@ -46,7 +46,7 @@ u<sub>i</sub>(x)为f(x)或g(x)。
 
 ## 原题链接
 
-http://codeforces.com/contest/980/problem/C
+http://codeforces.com/contest/977/problem/D
 
 ## 请我喝一杯可乐
 
