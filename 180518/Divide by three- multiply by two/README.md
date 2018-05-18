@@ -7,7 +7,7 @@
 * f(x) = x / 3 if x % 3 == 0 else nan
 * g(x) = x * 2
 
-（nan 意为 not a number，即值不存在）
+（nan 意为 not a number，即值不存在。也就是说当x不是3的倍数的时候，不能使用f(x)）
 
 现在给定n个整数，让你重新排列这些整数[a1, a2 ... an]，并在相邻的两数中间插入f(x)或g(x)，使得：
 
