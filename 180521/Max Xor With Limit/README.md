@@ -45,3 +45,14 @@
 30 158 24
 ```
 
+## 请我喝一杯可乐
+
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/bonus_QR.jpg)
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_bonus_qr.jpg)
+
+## 待字闺中微信群
+
+内部测试期间，先加以下微信为好友，之后会把你拉入群中
+
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_QR.jpg)
+
