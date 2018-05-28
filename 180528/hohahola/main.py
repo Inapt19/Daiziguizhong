@@ -1,3 +1,5 @@
+MAXI = 10 ** 10
+
 class Solution(object):
     def __init__(self, n, x, y, z):
         self.n = n
@@ -6,45 +8,22 @@ class Solution(object):
         self.z = z
 
     def calc(self, u):
-        cash = u * self.z
-        vcnt = self.n - u
-
-        if cash <= vcnt * (self.x - self.y):
-            if self.x == self.y:
-                return vcnt
-            else:
-                return 1.0 * cash / (self.x - self.y)
+        if self.z >= self.y:
+            return self.n * self.z >= u * self.x
         else:
-            res = vcnt
-            cash -= vcnt * (self.x - self.y)
-            res += 1.0 * cash / self.x
-            return res
+            v = min(self.n, u)
+            return (self.n - v) * z >= v * (self.x - self.y) + (u - v) * self.x
 
     def solve(self):
-        l, r = 0, self.n
+        l, r = 0, MAXI
         res = 0
         while l <= r:
-            lt, rt = l + (r - l) / 3, l + 2 * (r - l) / 3
-
-            vlt, vrt = map(self.calc, [lt, rt])
-
-            res = max(res, vlt, vrt)
-
-            if vlt > vrt:
-                r = rt - 1
+            m = (l + r) >> 1
+            if self.calc(m):
+                l = m + 1
             else:
-                l = lt + 1
-
-        return int(res)
-
-    def brute_force(self):
-        res = 0
-        maxi = -1
-        for i in xrange(self.n + 1):
-            if self.calc(i) > res:
-                maxi = i
-                res = self.calc(i)
-        return int(res)
+                r = m - 1
+        return r
 
 if __name__ == '__main__':
     (n, x, y, z) = map(int, raw_input().split())
