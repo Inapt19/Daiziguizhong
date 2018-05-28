@@ -28,7 +28,7 @@
 
 ## 原题链接
 
-http://hihocoder.com/problemset/problem/1747
+http://hihocoder.com/problemset/problem/1744
 
 ## 请我喝一杯可乐
 
