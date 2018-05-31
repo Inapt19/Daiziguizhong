@@ -6,4 +6,4 @@
 
 最大前缀和的定义：
 
-![](http://wizmann-pic.qiniudn.com/18-5-31/30993353.jpg)
+![](http://wizmann-pic.qiniudn.com/18-5-31/40662330.jpg)
