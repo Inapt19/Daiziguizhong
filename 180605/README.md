@@ -32,9 +32,17 @@
 
 ## 今日题目讨论
 
-今天会把所有的简单题都讨论完。接下来的三天一天讨论一道中等题。
-
 * [C题：托米航空公司][1]
-* [E题：托米的饮料][2]
-* [F题：托米搭积木][3]
 
+## 请我喝一杯可乐
+
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/bonus_QR.jpg)
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_bonus_qr.jpg)
+
+## 待字闺中算法讨论微信群
+
+微信群算法讨论，娱乐比赛开黑等你加入。
+
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_QR.jpg)
+
+[1]: https://github.com/Inapt19/Daiziguizhong/blob/180605/180605/C-%E6%89%98%E7%B1%B3%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8.md
