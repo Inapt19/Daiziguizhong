@@ -45,4 +45,4 @@
 
 ![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_QR.jpg)
 
-[1]: https://github.com/Inapt19/Daiziguizhong/blob/180605/180605/C-%E6%89%98%E7%B1%B3%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8.md
+[1]: https://github.com/Inapt19/Daiziguizhong/blob/master/180605/Nowcoder-practise-contest-19/C-%E6%89%98%E7%B1%B3%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8.md
