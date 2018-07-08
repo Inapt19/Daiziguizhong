@@ -69,6 +69,18 @@ foreach l <= r && r - l >= k:
 
 > p.s. 觉得Github的Issues用来做记录与笔记真的非常适合，例如记录这组题目的[Issue][3]
 
+## 请我喝一杯可乐
+
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/bonus_QR.jpg)
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_bonus_qr.jpg)
+
+## 待字闺中算法讨论微信群
+
+微信群算法讨论，娱乐比赛开黑等你加入。
+
+![](https://raw.githubusercontent.com/Inapt19/Resource/master/wechat_QR.jpg)
+
+
 [1]: https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/
 [2]: https://vjudge.net/contest/164725#overview
 [3]: https://github.com/Inapt19/Daiziguizhong/issues/22
